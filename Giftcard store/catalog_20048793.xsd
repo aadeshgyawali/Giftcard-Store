@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Store">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Logo">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Store_Name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Cards">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="card">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:choice maxOccurs="unbounded">
+                      <xs:element name="Cover_Picture">
+                        <xs:complexType>
+                          <xs:attribute name="id" type="xs:string" use="required" />
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="Name">
+                        <xs:complexType>
+                          <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                              <xs:attribute name="Name_Id" type="xs:string" use="required" />
+                            </xs:extension>
+                          </xs:simpleContent>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="Type">
+                        <xs:complexType>
+                          <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                              <xs:attribute name="type_id" type="xs:string" use="required" />
+                            </xs:extension>
+                          </xs:simpleContent>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="cost" type="xs:string" />
+                      <xs:element name="validity" type="xs:string" />
+                      <xs:element name="Refund" type="xs:string" />
+                      <xs:element name="instock" type="xs:string" />
+                      <xs:element name="user" type="xs:string" />
+                      <xs:element name="offer" type="xs:string" />
+                      <xs:element name="discount" type="xs:string" />
+                      <xs:element name="note" type="xs:string" />
+                      <xs:element name="Delivery" type="xs:string" />
+                    </xs:choice>
+                  </xs:sequence>
+                  <xs:attribute name="Card_Id" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Footer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Website" type="xs:string" />
+              <xs:element name="Address" type="xs:string" />
+              <xs:element name="Telephone" type="xs:string" />
+              <xs:element name="Copyright" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,183 @@
+Header {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    background-color: rgb(0, 0, 0);
+    height: 12vh;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+/* Defining Footer Section */
+Footer {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(64, 60, 67);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+Store_Name {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: absolute;
+    right: 35%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+Copyright {
+    padding-bottom: 10px;
+    margin-left: -80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+Address,Telephone,Website {
+    padding-bottom: 10px;
+    margin-left: -80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+/*yo kinaa hoo hauuu
+/* Padding for Footer */
+Footer Website {
+    padding-top: -19px;
+}
+
+Logo {
+    background-image: url(./image/logo.jpg);
+    background-size: cover;
+    height: 90px;
+    width: 130px;
+    position: absolute;
+    left: 26%;
+}
+
+Store{
+
+    background-image: url(./image/background.jpg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+card:hover {
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+card {
+    border: 4px groove rgb(0, 0, 0);
+    font-family: Arial,Helvetica,sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(104, 177, 177);
+    border-radius: 20px;
+    transform: rotate(-0.1deg);
+    font-size: 30px;
+    margin: 20px;
+    width: 550px;
+    height: 520px;
+    padding: 20px;
+    color: #ffffff;
+    grid-gap: 5px;
+    transition: background-color 0.4s ease-out;
+    text-align: center;
+}
+
+Cover_Picture {
+
+    border: 4px groove rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    font-size: 100px;
+}
+
+Name {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(245, 255, 54);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cover Photo for each card */
+#cover_1 {
+    background-image: url(./image/card_1.jpg);
+}
+
+#cover_2 {
+    background-image: url(./image/card_2.jpeg);
+}
+
+#cover_3 {
+    background-image: url(./image/card_3.jpeg);
+}
+
+#cover_4 {
+    background-image: url(./image/card_4.jpg);
+}
+
+#cover_5 {
+    background-image: url(./image/card_5.png);
+}
+
+#cover_6 {
+    background-image: url(./image/card_6.jpeg);
+}
+
+#cover_7 {
+    background-image: url(./image/card_7.png);
+}
+
+#cover_8 {
+    background-image: url(./image/card_8.jpeg);
+}
+
+#cover_9 {
+    background-image: url(./image/card_9.png);
+}
+
+#cover_10 {
+    background-image: url(./image/card_10.jpeg);
+}
+
+#cover_11 {
+    background-image: url(./image/card_11.jpeg);
+}
+
+#cover_12 {
+    background-image: url(./image/card_12.jpeg);
+}
+
+#cover_13 {
+    background-image: url(./image/card_13.webp);
+}
+
+#cover_14 {
+    background-image: url(./image/card_14.png);
+}
+
+#cover_15 {
+    background-image: url(./image/card_15.jpg);
+}

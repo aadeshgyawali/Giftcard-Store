@@ -1,0 +1,196 @@
+<?xml version="1.0" standalone="no"?>
+<!--
+
+ Coursework 2
+    XML
+    Author:  Aadesh Gyawali
+    Date: 24th April 2021
+    Filename: catalog_20048793.xml
+
+-->
+
+<?xml-stylesheet href="catalog_20048793.css" type="text/css"?>
+
+<Store  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./catalog_20048793.xsd">
+
+    <Header>
+        <Logo id="Logo"/>
+        <Store_Name>GIFT CARD STORE</Store_Name>
+    </Header>
+
+    <Cards>
+    
+        <card Card_Id="card_1">
+            <Cover_Picture id="cover_1"/>
+            <Name Name_Id="name_1">Apple Gift Card</Name>
+            <Type type_id="type">Type: physical card</Type>
+            <cost>Cost: $50-$400</cost>
+            <validity>Validaity: no expiration date</validity>
+            <user>User: 5 people</user>
+            <offer>Offer: unlimited 3% Daily Cash back on everything you buy at Apple </offer>
+            <discount>Discount: up to 10%</discount>
+        </card>
+
+        <card Card_Id="card_2">
+            <Cover_Picture id="cover_2"/>
+            <Name Name_Id="name_1">DSW Gift Card</Name>
+            <Type type_id="type">Type: physical card</Type>
+            <cost>Cost: $25-$1400</cost>
+            <validity>Validaity: no expiration date</validity>
+            <instock>Instock: available 13</instock>
+            <discount>Discount: up to 20%</discount>
+            <note>Note: limited offer for 13 gift cards only</note>
+        </card> 
+
+        <card Card_Id="card_3">
+            <Cover_Picture id="cover_3"/>
+            <Name Name_Id="name_1">Starbucks Gift Card</Name>
+            <Type type_id="type">Type: physical card</Type>
+            <cost>Cost: $400-$500</cost>
+            <validity>Validaity: no expiration date</validity>
+            <Refund>Refund: No returns or refunds</Refund>
+            <offer>Offer: Buy a $20+ Starbucks eGift, Get a $5 Starbucks eGift Card</offer>
+            <user>User: more than 1 people</user>
+            <discount>Discount: up to 10%</discount>
+        </card> 
+
+        <card Card_Id="card_4">
+            <Cover_Picture id="cover_4"/>
+            <Name Name_Id="name_1">Valorant Gift Card</Name>
+            <Type type_id="type">Type: digital card</Type>
+            <cost>Cost: $25-$100</cost>
+            <validity>Validaity: no time limit</validity>
+            <user>User: 1 people</user>
+            <discount>Discount: up to 10%</discount>
+            <note>Note: get exclusive weapons in limited offer </note>
+        </card> 
+
+        <card Card_Id="card_5">
+            <Cover_Picture id="cover_5"/>
+            <Name Name_Id="name_1">DoorDash Gift Card</Name>
+            <Type type_id="type">Type: physical card</Type>
+            <cost>Cost: $25-$500</cost>
+            <validity>Validaity: no expiration date</validity>
+            <Refund>Refund: No returns or refunds</Refund>
+            <user>User: 1 people</user>
+            <discount>Discount: up to 20%</discount>
+        </card> 
+
+        <card Card_Id="card_6">
+            <Cover_Picture id="cover_6"/>
+            <Name Name_Id="name_1">Visa Gift Card</Name>
+            <Type type_id="type">Type: digital card</Type>
+            <cost>Cost: $10-$250</cost>
+            <validity>Validaity: no expiration date</validity>
+            <user>User: single user</user>
+            <discount>Discount: up to 10%</discount>
+        </card> 
+
+        <card Card_Id="card_7">
+            <Cover_Picture id="cover_7"/>
+            <Name Name_Id="name_1">Google Play Gift Card</Name>
+            <Type type_id="type">Type: digital card</Type>
+            <cost>Cost: $25-$500</cost>
+            <validity>Validaity: no expiration date</validity>
+            <user>User: more than 2 people</user>
+            <instock>Instock: available 100</instock>
+            <discount>Discount: up to 10%</discount>
+        </card> 
+
+        <card Card_Id="card_8">
+            <Cover_Picture id="cover_8"/>
+            <Name Name_Id="name_1">Steam Gift Card</Name>
+            <Type type_id="type">Type: physical card</Type>
+            <cost>Cost: $5-$100</cost>
+            <validity>Validaity: no expiration date</validity>
+            <instock>Instock: available 43</instock>
+            <user>User:more than 2 people</user>
+            
+        </card> 
+
+        <card Card_Id="card_9">
+            <Cover_Picture id="cover_9"/>
+            <Name Name_Id="name_1">Spotify Gift Card</Name>
+            <Type type_id="type">Type: digital card</Type>
+            <cost>Cost: $30-$60</cost>
+            <validity>Validaity: up to 12 months</validity>
+            <Delivery>Delivery: by Email</Delivery>
+            <user>User: more than 1 people</user>
+            <discount>Discount: up to 20%</discount>
+        </card> 
+
+        <card Card_Id="card_10">
+            <Cover_Picture id="cover_10"/>
+            <Name Name_Id="name_1">Whole Foods Market Gift Card</Name>
+            <Type type_id="type">Type: physical card</Type>
+            <cost>Cost: $25-$200</cost>
+            <validity>Validaity: never expire</validity>
+            <Refund>Refund: No returns or refunds</Refund>
+            <user>User: more than 1 people</user>
+            <discount>Discount: up to 20%</discount>
+        </card> 
+
+        <card Card_Id="card_11">
+            <Cover_Picture id="cover_11"/>
+            <Name Name_Id="name_1">Netflix Gift Card</Name>
+            <Type type_id="type">Type: digital card</Type>
+            <cost>Cost: $25-$200</cost>
+            <validity>Validaity: no expiration date</validity>
+            <user>User: 10 people</user>
+            <Delivery>Delivery: by Email</Delivery>
+            <discount>Discount: up to 20%</discount>
+        </card> 
+
+        <card Card_Id="card_12">
+            <Cover_Picture id="cover_12"/>
+            <Name Name_Id="name_1">Target Gift Card</Name>
+            <Type type_id="type">Type: physical card</Type>
+            <cost>Cost: $10-$200</cost>
+            <validity>Validaity: no expiration date</validity>
+            <user>User: 1 people</user>
+            <instock>Instock: not available </instock>
+            <discount>Discount: up to 10%</discount>
+        </card> 
+
+        <card Card_Id="card_13">
+            <Cover_Picture id="cover_13"/>
+            <Name Name_Id="name_1">Bookshop Gift Card</Name>
+            <Type type_id="type">Type: digital card</Type>
+            <cost>Cost: $10-$1000</cost>
+            <validity>Validaity: never expire</validity>
+            <Delivery>Delivery: by Email</Delivery>
+            <instock>Instock: available 63</instock>
+            <discount>Discount: no discount</discount>
+        </card> 
+
+        <card Card_Id="card_14">
+            <Cover_Picture id="cover_14"/>
+            <Name Name_Id="name_1">Uber e-Gift Card</Name>
+            <Type type_id="type">Type: digital card</Type>
+            <cost>Cost: $25-$200</cost>
+            <validity>Validaity: no expiration date</validity>
+            <user>User: more than people</user>
+            <Delivery>Delivery: by Email</Delivery>
+            <discount>Discount: up to 4%</discount>
+        </card> 
+
+        <card Card_Id="card_15">
+            <Cover_Picture id="cover_15"/>
+            <Name Name_Id="name_1">Chipotle Gift Card </Name>
+            <Type type_id="type">Type: physical card</Type>
+            <cost>Cost: $25-$75</cost>
+            <validity>Validaity: no expiration date</validity>
+            <Refund>Refund: No returns or refunds</Refund>
+            <discount>Discount: up to 10%</discount>
+        </card> 
+
+    </Cards>
+
+    <Footer>
+        <Website>www.GiftCardStore.com</Website>
+        <Address>Address: Greenwich,London</Address>
+        <Telephone>Contact: 01-6545654 &amp; 9861062001</Telephone>
+        <Copyright>Copyright &#xA9; 2022 Gift Card Store. All rights reserverd.</Copyright>
+    </Footer>
+
+ </Store>
